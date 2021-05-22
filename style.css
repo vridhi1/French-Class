@@ -34,7 +34,7 @@ overflow: hidden;
 }   
 
 .opac{
-background-image:linear-gradient(rgba(204, 212, 212, 0.5), rgba(204, 212, 212, 0.5)),url('images/back1.JPG');
+background-image:linear-gradient(rgba(204, 212, 212, 0.5), rgba(204, 212, 212, 0.5)),url('back1.JPG');
 height: 50%;
 background-position: center;
 background-size: cover;

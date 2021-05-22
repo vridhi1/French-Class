@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+body,html{
+	height: 100%;
+	font-family: 'Merriweather', serif;
+}
+.banner{
+
+	margin:0;
+	top: 0%;
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	display: block;
+	font-weight: 700;
+    background-color:white;
+    z-index: 3;
+	
+}
+.bn{
+
+    list-style-type: none;
+    float: right;
+    display: block;
+    text-align: center;
+
+text-decoration: none;
+
+overflow: hidden;
+}
+#l1{
+    display: inline;
+    border-left: 1px solid black;
+    padding: 14px 26px;
+}   
+
+.cd{
+	background-image:linear-gradient(rgba(242, 250, 250, 0.5), rgba(239, 245, 245, 0.5)),url('images/IMG-1819.JPG');
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+    width: 100%;
+    z-index: 1;
+	}
+.heading
+{
+
+	font-size: 2rem;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+  .btn
+{  
+	font-family: 'Merriweather', serif;
+	font-size: 100%;
+	background-color: #8ab3d3;
+	width: 300px;
+	height: 50px;
+	border-radius: 20%;
+	}
+.btn:hover
+{
+	color: white;
+	background-color: black;
+	            padding:15px;
+                background:#8ab3d3;
+                width:300px;  
+}
+
+
+#c{
+    font-size: 150%;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    a:hover{
+        color: blue;
+    }
+

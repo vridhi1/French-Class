@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+body,html{
+	height: 100%;
+	font-family: 'Merriweather', serif;
+}
+
+
+.bn{
+    margin:0;
+	top: 0%;
+    right: 0%;
+	position: fixed;
+    height: 60px;
+	width: 100%;
+    display: block;
+    font-weight: 700;
+    background-color:white;
+    z-index: 3;
+
+}
+#l1{
+    display: inline;
+    float: right;
+    border-left: 1px solid black;
+    padding: 14px 26px;
+}   
+.demo{
+	background-image:linear-gradient(rgba(242, 250, 250, 0.5), rgba(239, 245, 245, 0.5)),url('images/online-tutorials-concept_52683-37480.jpg');
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+    width: 100%;
+    z-index: 1;
+	}
+    .heading
+    {
+    
+        font-size: 2rem;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+
+
+
+  #form{
+	font-size:200%;
+	background-color:#8ab3d3 ;
+}
+a{
+	text-decoration: none;
+	
+}
+a:hover{
+	color: blue;
+}
+
+
+.bt{
+	border:none;
+	font-family: 'Merriweather', serif;
+	font-size: 100%;
+	background-color: white;
+
+	border-radius: 20%;
+}
+.bt:hover{
+	
+	color: #8ab3d3;;
+}

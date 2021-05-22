@@ -34,7 +34,7 @@ overflow: hidden;
 }   
 
 .cd{
-	background-image:linear-gradient(rgba(242, 250, 250, 0.5), rgba(239, 245, 245, 0.5)),url('images/IMG-1819.JPG');
+	background-image:linear-gradient(rgba(242, 250, 250, 0.5), rgba(239, 245, 245, 0.5)),url('IMG-1819.JPG');
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
